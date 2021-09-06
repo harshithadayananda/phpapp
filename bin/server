@@ -2,4 +2,4 @@
 
 PORT=${PORT-4000}
 
-(cd public && php -S localhost:$PORT)
+(cd public && php -S postgresdb678.postgres.database.azure.com:$PORT)
